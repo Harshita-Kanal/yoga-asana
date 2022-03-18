@@ -1,0 +1,50 @@
+.pink{
+    padding: 10px;
+    width: 200px;
+   color: white; 
+   background-color: #d81b60 ; 
+   font-size:large;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 20px;
+}
+.pink:hover{
+     box-shadow: 0 8px 6px -6px gray; 
+  background:#d81b60 radial-gradient(circle, transparent 1%, #d81b60 1%) center/15000%;
+     
+}
+
+.imddiv{
+    text-align: center;
+}
+
+.top{
+    font-size: 50px;
+    color: #d81b60 ; 
+    font-family: montserrat;
+}
+
+.red{
+  padding: 10px;
+   color: white; 
+   background-color: #d81b60 ; 
+   font-size:large;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 20px;
+}
+
+.red:hover{
+  box-shadow: 0 8px 6px -6px gray; 
+  background:#d81b60 radial-gradient(circle, transparent 1%, #d81b60 1%) center/15000%;
+}
+
+.work{
+    color: white;
+}
+
+
+.work:hover{
+    color: white;
+}
+.work:visited{
+    color: white;
+}

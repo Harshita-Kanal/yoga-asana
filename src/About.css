@@ -1,0 +1,19 @@
+/* .container{
+    margin-top: 100px;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.container{
+    text-align: center;
+    font-family: montserrat;
+}
+
+.mybag{ 
+    background-color: pink;
+}
+
+.tp{
+    color: #d81b60;
+}

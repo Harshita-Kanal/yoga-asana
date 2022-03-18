@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.posenet{
+    text-align: center;
+    font-family: montserrat;
+}
+
+.color{
+    color: #d81b60 ; 
+    font-family: montserrat;
+}
+
+.color-res{
+    color: green ; 
+    font-family: montserrat;
+}
+
+.res{
+    border-radius: 10px;
+    border: 5px solid #d81b60;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}

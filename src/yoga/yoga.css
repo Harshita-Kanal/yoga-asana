@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Trocchi&display=swap');
+title {
+    display: none;
+  }
+  
+  h1.tiny {
+    font-size: 16px;
+    color: #b0bec5;
+    letter-spacing: .2rem;
+  }
+  
+  .header-background{
+    background-color: #d81b60;
+    padding: 10px;
+    /* border-bottom: 2px solid ; */
+    border-top: 1px solid #819ca9;
+  }
+  
+  .light{
+    background-color: #eee2dc;
+    padding: 15px;
+    border-bottom: 2px solid #bab2b5;
+  }
+  
+  h2.project_title, .project_title > span {
+    font-size: 5rem;
+    color: dimgray;
+    opacity: .8;
+    font-family: 'Trocchi', serif;
+    letter-spacing: 25px;
+    display: inline-block;
+  }
+  
+  .project_title > span {
+    color: gray;
+    opacity: 1;
+    font-size: 6rem;
+    letter-spacing: 20px;
+  }
+  
+  span.inner {
+    color: #123c69;
+  }
+  
+  #app-explanation{
+      width: 40%;
+      font-size: 16px;
+      padding: 10px 15px;
+      margin-top: 40px;
+  }
+  
+  h1.headline {
+    font-family: 'Montserrat', sans-serif;
+    color: #d81b60;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    margin-bottom: 1rem;
+    max-width: 70%;
+  }
+  
+  .mobile-img {
+    display: none;
+  }
+  
+  #intro-background {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: block;
+    border-radius: 15px;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2), 0 6px 10px rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+  }
+  p.intro {
+    line-height: 1.75rem;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #000000;
+    /* text-align: justify; */
+  }
+  
+  span.promise {
+    color: #d81b60;
+    font-size: 22px;
+    font-family: 'Trocchi', serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 2rem;
+  }
+  
+  .position-rel {
+    position: relative;;
+  }
+  
+  .results-inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 75px 50px 30px 50px;
+  }
+  
+  .buttons-rel {
+    display: inline-flex;
+  }
+  
+  .happy_shadow {
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2), 0 6px 10px rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+  }
+  
+  .select-dropdown:hover {
+    background-color: #eee2dc;
+    color: #123c69;
+    transition: background-color 0.5s ease;
+  }
+  
+  .select-dropdown {
+    font-size: 15px;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #123c69;
+    padding-left: 25px;
+  }
+  
+  
+  .this-button:hover {
+    background-color:#123c51;
+    color: white;
+    transition: background-color 0.5s ease;
+  }
+  
+  .this-button {
+    text-align: center;
+    font-size: 15px;
+    background-color: #123c69;
+    margin-bottom: 25px;
+    width: 30%;
+    height: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  
+  #sanskrit-div  {
+    background-color: #fdd1ea;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  #sanskrit-div>p {
+    font-size: 4rem;
+    color: #d81b60;
+    opacity: .8;
+    font-family: 'Trocchi', serif;
+    letter-spacing: 18px;
+    display: inline-block;
+  }
+  
+  #pose-img {
+    min-width: 200px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+    border-radius: 15px;
+    padding: 0px 75px;
+  }
+  
+  iframe{
+    margin: 5px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2), 0 6px 10px rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    background-color: #ff9dcb;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  
+  /* Responsive */
+  
+  @media only screen
+    and (max-device-width: 700px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait)
+     {
+  
+      header {
+        display: none;
+      }
+  
+     
+      h1.headline {
+        font-size: 60px;
+      }
+  
+      h2 {
+        font-size: 40px;
+        color: #123c69;
+      }
+  
+      span.inner {
+        color: #bab2b5;
+      }
+  
+      h1.headline, .promise {
+        font-size: 28px;
+      }
+  
+      p.intro {
+        margin: 50px;
+        padding: 50px;
+        text-align: center;
+      }
+  
+     
+  
+      span.promise {
+        color: #edc7b7;
+      }
+  
+      .select-dropdown {
+        font-size: 25px;
+        width: 50%;
+        height: 75px;
+      }
+  
+      .submit-button {
+        font-size: 25px;
+        width: 50%;
+        height: 75px;
+      }
+  
+      #app-explanation {
+        display: none;
+      }
+  
+  
+  
+  
+      .light {
+        padding: 65px;
+        background-color: #edc7b7;
+      }
+  
+      .buttons-rel {
+        display: block;
+      }
+  
+  
+      .results-inline {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+  
+  
+      #pose-img {
+        margin-bottom: 100px;
+        height: 200px;
+      }
+  
+      iframe {
+        margin-bottom: 50px;
+      }
+  
+      #sanskrit-div {
+        padding: 40px;
+      }
+  
+  }
